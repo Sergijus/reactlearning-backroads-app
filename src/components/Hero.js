@@ -5,7 +5,7 @@ const Hero = () => {
         <h1>continue exploring</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-          explicabo debitis est autem dicta.
+          explicabo debitis est autem dicta. GitHub.
         </p>
         <a href="#tours" className="btn hero-btn">
           explore tours
