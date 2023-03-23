@@ -9,7 +9,7 @@ const SocialIcons = ({ ulClass, aClass }) => {
             <a
               href={socialLink.href}
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
               className={aClass}
             >
               <i className={socialLink.icon}></i>
