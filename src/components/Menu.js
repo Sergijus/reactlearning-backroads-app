@@ -1,4 +1,4 @@
-import { pageLinks, socialIcons } from '../data.js';
+import { pageLinks } from '../data.js';
 
 const Menu = ({ ulClass, liClass }) => {
   return (
@@ -6,7 +6,7 @@ const Menu = ({ ulClass, liClass }) => {
       {pageLinks.map((link) => {
         return (
           <li key={link.id}>
-            <a href={link.href} className={liClass}>
+            <a href={link.href} className={liClass} rel="noreferrer">
               {link.text}
             </a>
           </li>
